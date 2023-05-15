@@ -1,0 +1,18 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:timestamp_0 rdf:type ex:EnergyData ;
+    ex:timestamp "2022-01-01 08:00:00" ;
+    ex:building_id "A" ;
+    ex:consumption "100"^^xsd:integer .
+
+ex:timestamp_1 rdf:type ex:EnergyData ;
+    ex:timestamp "2022-01-01 08:01:00" ;
+    ex:building_id "B" ;
+    ex:consumption "200"^^xsd:integer .
+
+ex:timestamp_2 rdf:type ex:EnergyData ;
+    ex:timestamp "2022-01-01 08:02:00" ;
+    ex:building_id "C" ;
+    ex:consumption "150"^^xsd:integer .
