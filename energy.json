@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2022-01-01 08:00:00",
+    "building_id": "A",
+    "consumption": 100
+  },
+  {
+    "timestamp": "2022-01-01 08:01:00",
+    "building_id": "B",
+    "consumption": 200
+  },
+  {
+    "timestamp": "2022-01-01 08:02:00",
+    "building_id": "C",
+    "consumption": 150
+  }
+]

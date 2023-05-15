@@ -1,0 +1,4 @@
+id,timestamp,vehicle_id,speed,location
+1,2022-01-01 08:00:00,1,60,New York
+2,2022-01-01 08:01:00,2,45,Los Angeles
+3,2022-01-01 08:02:00,3,30,Chicago
