@@ -1,0 +1,39 @@
+{
+  "_comment": "Maps the traffic csv to ttl",
+  "base_data_uri": "http://www.example.com/traffic/",
+  "base_ontology_uri": "http://www.example.com/traffic/#",
+  "prefixes": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#"
+  },
+  "mapping": [
+    {
+      "source_type": "TrafficRecord",
+      "source_value_column_expression": "id_{id}",
+      "property": "timestamp",
+      "destination_type": "Literal",
+      "destination_value_column_expression": "{timestamp}"
+    },
+    {
+      "source_type": "TrafficRecord",
+      "source_value_column_expression": "id_{id}",
+      "property": "id",
+      "destination_type": "Literal",
+      "destination_value_column_expression": "{id}"
+    },
+    {
+      "source_type": "TrafficRecord",
+      "source_value_column_expression": "id_{id}",
+      "property": "speed",
+      "destination_type": "Literal",
+      "destination_value_column_expression": "{speed}"
+    },
+    {
+      "source_type": "TrafficRecord",
+      "source_value_column_expression": "id_{id}",
+      "property": "location",
+      "destination_type": "Literal",
+      "destination_value_column_expression": "{location}"
+    }
+  ]
+}

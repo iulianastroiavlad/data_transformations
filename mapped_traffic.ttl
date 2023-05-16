@@ -1,0 +1,24 @@
+@prefix ns1: <http://www.example.com/traffic/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.com/traffic/id_1> a ns1:TrafficRecord ;
+    ns1:id "1" ;
+    ns1:location "New York" ;
+    ns1:speed "60" ;
+    ns1:timestamp "2022-01-01 08:00:00" .
+
+<http://www.example.com/traffic/id_2> a ns1:TrafficRecord ;
+    ns1:id "2" ;
+    ns1:location "Los Angeles" ;
+    ns1:speed "45" ;
+    ns1:timestamp "2022-01-01 08:01:00" .
+
+<http://www.example.com/traffic/id_3> a ns1:TrafficRecord ;
+    ns1:id "3" ;
+    ns1:location "Chicago" ;
+    ns1:speed "30" ;
+    ns1:timestamp "2022-01-01 08:02:00" .
+
