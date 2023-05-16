@@ -21,7 +21,8 @@ def map_csv(csv_source, specifiction_df2rdf, rdf_destination=None, rdf_format="t
     graph.serialize(destination=rdf_destination, format=rdf_format)
 
 
-account_csv = "../traffic.csv"
+#account_csv = "../traffic.csv"
+account_csv = "traffic.csv"
 
 account_mapping = "map_traffic.json"
 map_csv(account_csv, account_mapping, rdf_destination="mapped_traffic.ttl")
